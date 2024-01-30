@@ -2,258 +2,398 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zephyr</title>
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css">
+  <base href="./">
+  <meta charset="utf-8">
+  <link rel="icon" href="assets/images/Temporal_Logo.png" type="image/png" sizes="16x16">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="black">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description"
+    content="The grandest festival in the town at Chaibasa Engineering College .This year Bigger Better than ever..">
+  <meta name="author" content="Rohitasw Choudhary">
+  <meta name="keyword"
+    content="Zephyr,Chaibasa Engineering College">
+  <title>Zephyr-2K24</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+  <link href="http://allfont.net/allfont.css?fonts=1-vivaldi-bold" rel="stylesheet" type="text/css" />
+  <!-- Main styles for this application-->
+  <link href="assets/css/home.css" rel="stylesheet">
+
+  <script>
+    var myVar;
+    // function sports(){
+    //   window.location="sports.php";
+    // }
+    function sportsfp() {
+      window.location = "sportsgal.html";
+    }
+    // function tech(){
+    //   window.location="tech.php";
+    // }
+    function techfp() {
+      window.location = "techgal.html";
+    }
+    // function cult(){
+    //   window.location="cult.php";
+    // }
+    function justjam() {
+      window.location = "justjamgal.html";
+    }
+    function myFunction() {
+      myVar = setTimeout(showPage, 2500);
+    }
+    function showPage() {
+      document.getElementById("test").style.display = "flex";
+      document.getElementById("events").style.display = "flex";
+      document.getElementById("navb").style.display = "flex";
+      document.getElementById("navb").style.display = "-webkit-flex";
+      document.getElementById("memories").style.display = "flex";
+      document.getElementById("view1").style.display = "flex";
+      document.getElementById("gone").style.display = "none";
+      document.getElementById("foot").style.display = "flex";
+      document.getElementById("maintain").style.display = "flex";
+      document.getElementById("about").style.display = "initial";
+      document.getElementById("sponstest").style.display = "initial";
+      document.getElementById("theam").style.display = "initial";
+      document.getElementById("pastevents").style.display = "initial";
+    }
+  </script>
 </head>
 
-<body>
-    <div id="loader">
-        <h1>Dance</h1>
-        <h1>Singing</h1>
-        <h1>Drama and Many more....</h1>
-        
+<body onload="myFunction()">
+  <nav id="navb">
+    <div id="menuToggle">
+      <input type="checkbox" />
+
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="#events">
+          <li>Zephyr Events</li>
+        </a>
+        <a href="timeline.html">
+          <li>Timeline</li>
+        </a>
+        <a href="#pastevents">
+          <li>Past Events</li>
+        </a>
+        <a href="spons.html">
+          <li>Sponsors</li>
+        </a>
+
+        <a href="#" target="_blank">
+          <li></li>
+        </a>
+      </ul>
     </div>
-    <div id="fixed-image">
-
+    <div class="countdown">
+      <ul>
+        <li><span id="days"></span></li>
+        <li><span id="hours"></span></li>
+        <li><span id="minutes"></span></li>
+        <li><span id="seconds"></span></li>
+      </ul>
     </div>
-    <div id="main">
-
-        <div id="page1">
-            <nav id="nav">
-                <!-- <img src="Temporal_Logo_dARK.png" alt=""> -->
-                <div id="nav-part2">
-                    <h4><a href="#">Events</a></h4>
-                    <h4><a href="#">Schedule</a></h4>
-                    <h4><a href="#">Sponsors</a></h4>
-                    <h4><a href="#">Accommodation</a></h4>
-                    <h4><a href="#">Contact Us</a></h4>
-                    <h4><a href="#">Register</a></h4>
-
-                   
-                </div>
-                <h3>MENU</h3>
-                
-            </nav>
-            <div id="center">
-                
-                <div id="gif">
-                  <img src="birds.gif" alt="" class="gifs">
-                </div>
-              <img src="hangingman.png" id="hangingman" alt="" height="140px" width="80px">
-              
-
-            </div>
-           
-        </div>
-        <div id="page2nd">
-            <div class="theme">
-                <h2>About</h2>
-            <h3>Zephyr 2K24: A Celebration of </h3>
-            <h3>Culture and Creativity form past to future.</h3>
-            <p> 
-                Zephyr 2K24, an annual cultural fest, unfolded with vibrant energy, enthusiasm, and a kaleidoscope of events that left an indelible mark on the cultural landscape. Held at a sprawling venue, the festival brought together students, artists, and enthusiasts from diverse backgrounds to celebrate the richness of cultural diversity and creativity. Artists and performers from different parts of the country graced the stages, adding their unique flair to the cultural tapestry. From traditional folk performances to contemporary art installations, Zephyr 2K24 embraced a wide spectrum of creative expressions. The art galleries were adorned with a visual feast, showcasing the talents of emerging artists alongside established names.
-            </p>
-            </div>
-            
-            <div class="custom-shape-divider-bottom-1705997464">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-        </div>
-
-        <div id="page3">
-            <div id="elem-container">
-                <div id="elem1" class="elem"
-                    data-image="dance.jpg">
-                    <div class="overlay"></div>
-                    <h2>Dance</h2>
-                </div>
-                <div class="elem"
-                    data-image="singing.jpg">
-                    <div class="overlay"></div>
-            
-                    <h2>Singing</h2>
-                </div>
-                <div class="elem"
-                    data-image="standup.jpg">
-                    <div class="overlay"></div>
-                    <h2>Standup</h2>
-                </div>
-                <div class="elem"
-                    data-image="celebrity.jpg">
-                    <div class="overlay"></div>
-                    <h2>Celebrity</h2>
-                </div>
-                <div class="elem"
-                    data-image="band.jpg">
-                    <div class="overlay"></div>
-                    <h2>Band</h2>
-                </div>
-                <div class="elem"
-                    data-image="drama.jpg">
-                    <div class="overlay"></div>
-                    <h2>Drama</h2>
-                </div>
-                <!-- <div class="elem"
-                    data-image="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OXx8fGVufDB8fHx8fA%3D%3D">
-                    <div class="overlay"></div>
-                    <h2>Play New Kidvision</h2>
-                </div> -->
-            </div>
-        </div>
-       
-
-        
-
-        <div id="page4">
-            <div class="theme">
-                <h2>Theme</h2>
-            <h3>Temporal Odyssey</h3>
-            <p> 
-                The theme for Zephyr 2K24 was carefully chosen to reflect the essence of unity in diversity. The organizing committee worked tirelessly to curate a program that showcased the various facets of art, music, dance, literature, and technology. The festival aimed to provide a platform for participants to express themselves, share their talents, and foster a sense of community.
-            </p>
-            </div>
-            <div  id="cloud"><img src="cloud_1.af7b164663b843e54806.png" height="20%" width="60%" alt="">
-            </div>
-            <div id="watch"><img src="watch.png" height="250px" width="300px" alt=""></div>
+    <div class="main-nav">
+      <img id="logo" src="assets/images/chibasa-ti.png" alt="news">
+    </div>
+  </nav>
 
 
-            <div class="custom-shape-divider-top-1705940286">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-        </div>
-
-        <div id="page5">
-            <div class="themes">
-                <h1>Sponsors</h1>
-            
-            <p> <h3>Comming Soon....</h3>            </p>
-            </div>
-
-            <!-- <div id="moon"><img src="moons-removebg-preview.png" height="550px" width="650px"></div> -->
-
-            
-            
-
-            <div class="custom-shape-divider-top-1705944484">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-        </div>
 
 
-        <div id="page6">
-            <div class="themess">
-                <h1>Statistics</h1>
-                <h3>Footfall: 3,000+
+  <div id="test">
 
-                   <h3> No of Participants: 400+
-                    
-                    <h3>No of Events: 50+
-                    
-                    <h3><u>OVER THE YEARS</u>
-                    
-                    <h3>Zephyr2k17:	Dev Negi
-                    Zephyr2k19:	Stebin Ben
-                    Zephyr2k22:	Adnan Ahmad
-                    <h3>Zephyr2k24:	......Star On the Way to CEC.....
-            </div>
-            <div id="genere"><img src="genere.png" height="280px" width="280px"></div>
-            
-            
-
-            <div class="custom-shape-divider-top-1705945425">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-        </div>
+    <img id="sv2" src="assets/images/Temporal_Logo_dARK.png" alt="news">
 
 
-        
+  </div>
 
 
-        <!-- <div id="pageFooter">
-            <div class="themeFooter">
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
-                        <img src="facebook-icon.png" alt="Facebook">
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
-                        <img src="instagram-icon.png" alt="Instagram">
-                    </a>
-                    <a href="https://twitter.com/" target="_blank" title="Twitter">
-                        <img src="twitter-icon.png" alt="Twitter">
-                    </a>
-                </div>
-                <div class="description">
-                    <p>Your brief description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-            </div>
 
-            
-            <div class="custom-shape-divider-top-1706000195">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-                </svg>
-            </div>
-
-        </div> -->
-
-
-        <div id="full-scr">
-            <div id="full-div1">
-                
-            </div>
-        </div>
-       
-        <footer>
-           
-            <div class="footerpart">
-                <div class="waves">
-                    <div class="wave" id="wave1"></div>
-                    <div class="wave" id="wave2"></div>
-                    <div class="wave" id="wave3"></div>
-                    <div class="wave" id="wave4"></div>
+  <div id="gone">
+    <img id="sv" src="assets/images/Zephyre_logo-removebg-preview.png" alt="news">
     
-                </div>
-             <ul class="social_icons">
-                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-             </ul>
-             <p>
-                <a href="https://chaibasaengg.edu.in/">Chaibasa Engineering college <br>Chaibasa</a>
-             </p>
-            </div>
-        </footer>
-        
+    
+  </div>
+  <div id="events">
+    
+    <!-- <div class="eve" onclick="tech()">
 
+    </div> -->
+    <div class="eve" onclick="cult()">
 
     </div>
-   
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+    <div class="eve" onclick="sports()">
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div>
+    <div class="eve">
+
+    </div>
+  </div>
+  <div id="view1">
+    
+
+    <div class="txt" onclick="techfp()">
+      Star NITE</br></br>
+      <div class="enrol">Know More</div>
+
+    </div>
+    <div class="txt" onclick="cult()">
+      Band NITE </br></br>
+      <div class="enrol">Know More</div>
+
+    </div>
+    <div class="txt" onclick="sports()">
+      DJ NITE </br></br>
+      <div class="enrol">Know More</div>
+    </div>
+    <!-- <div class="txt" onclick="">
+      Literary </br></br>
+      Coming soon
+    </div> -->
+  </div>
+
+  <div id="pastevents">
+
+    <div class="wrapper">
+      <h1 align="center">Highlights</h1>
+
+      <div class="item-bg"></div>
+
+      <div class="news-slider">
+        <div class="news-slider__wrp swiper-wrapper">
+          <div class="news-slider__item swiper-slide">
+            <a href="techgal.html" class="news__item">
+              <div class="news-date">
+                <span class="news-date__title">23</span>
+                <span class="news-date__txt">February</span>
+              </div>
+              <div class="news__title">
+                Band Nite
+              </div>
+
+              <p class="news__txt">
+                Some content....
+              </p>
+
+              <div class="news__img">
+                <img src="assets/images/COMING2.png" alt="news">
+              </div>
+            </a>
+          </div>
+
+          <div class="news-slider__item swiper-slide">
+            <a href="sportsgal.html" class="news__item">
+              <div class="news-date">
+                <span class="news-date__title">24</span>
+                <span class="news-date__txt">February</span>
+              </div>
+              <div class="news__title">
+                Star Nite
+              </div>
+
+              <p class="news__txt">
+                Some content....
+              </p>
+
+              <div class="news__img">
+                <img src="assets/images/COMING2.png" alt="news">
+              </div>
+            </a>
+          </div>
+
+          <div class="news-slider__item swiper-slide">
+            <a href="justjamgal.html" class="news__item">
+              <div class="news-date">
+                <span class="news-date__title">25</span>
+                <span class="news-date__txt">February</span>
+              </div>
+              <div class="news__title">
+                DJ Nite
+              </div>
+              </br>
+              <p class="news__txt">
+                Some Content...
+              </p>
+
+              <div class="news__img">
+                <img src="assets/images/COMING2.png" alt="news">
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  </br></br>
+  <!-- <div id="theam">
+
+    <h1 align="center">Theam of Zephyr-2K24</h1>
+    <div class="slideshow-container">
+
+      <div id="memories">
+      
+        <p>"Small minds can't comprehend big spirits. To be great, you have to be willing to be mocked, hated, and
+          misunderstood."<br /><br />
+          Come and show your Enthusiasm this Zephyr and Light up our fest with your Talent!</p>
+      </div>
+
+    </div>
+    <br>
+  </div> -->
+
+  <div id="about">
+
+    <h1 align="center">About Zephyr</h1>
+    <div class="slideshow-container">
+
+      <div id="memories">
+
+        <p>Initiated in 2013, Zephyr has emerged as the biggest college based fiesta and as one of the most 
+          awaited and anticipated cultural event of the Chaibasa Engineering college. 
+          With it's exciting competitions, splendid performances and glamorous pro-nites, 
+          Zephyr is one of the largest cultural festival inviting a huge crowd of students from different colleges.
+         Over the years, Zephyr has seen many outstanding talents and a lot of scintillating performances. 
+         Let's all get together and see what surprises Zephyr has up its sleeves this time. 
+         The festival is celebrated for hosting over many diverse events, including three professional 
+         shows that have featured musical luminaries such as TrapBand and professional concerts. 
+         It showcases a wide array of genres, including Rock, Classical, EDM, and Pop. 
+         This year marks the 5th edition of Zephyr, scheduled to be held offline from January onwards. 
+         Following last year's success, which drew a global audience, this year's event is anticipated 
+         to harness even greater potential and deliver an unforgettable experience. <br></br>
+         Small minds can't comprehend big spirits. To be great, you have to be willing to be mocked, hated, and
+         misunderstood.<br>
+        </p>
+      </div>
+
+    </div>
+    <br>
+  </div>
+
+
+  <div id="sponstest">
+
+    <h1 align="center">Past Sponsors</h1>
+    <div class="slideshow-container">
+
+      <!-- <div class="mySlides fade">
+         <div class="numbertext">1 / 3</div>
+        <img src="assets/images/spons1.png" style="width:100%">
+         <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+
+        <img src="assets/images/spons2.png" style="width:100%">
+      </div> -->
+
+      <div class="mySlides fade">
+
+        <img src="assets/images/spons3.png" style="width:100%">
+      </div>
+
+      <!-- <div class="mySlides fade">
+
+        <img src="assets/images/spons4.png" style="width:100%">
+      </div> -->
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div id="memories">
+
+    <p>"Small minds can't comprehend big spirits. To be great, you have to be willing to be mocked, hated, and
+      misunderstood."<br /><br />
+      Come and show your Enthusiasm this VERVE and Light up our fest with your Talent!</p>
+  </div>
+  <!--
+            <div id="view">
+                  <div class="mapouter">
+                    <div class="gmap_canvas">
+                      <iframe id="gmap_canvas" src="#">
+                      </iframe>
+                    </div>
+
+                  </div>
+            </div>
+-->
+  <div id="foot">
+    <div class="col">
+      <h1>Contact us:-</h1>
+      <ul>
+        
+        <li>Rohitasw Choudhary-&nbsp&nbsp<a href="https://api.whatsapp.com/send?phone=91XXXXXXXXXXX"><i class="fa fa-whatsapp"
+              aria-hidden="true"></i></a>&nbsp&nbsp&nbsp<a href="tel:+91XXXXXXXXXX"><i class="fa fa-phone"
+              aria-hidden="true"></i></a></li>
+        <li>Satish Gupta-&nbsp&nbsp<a href="https://api.whatsapp.com/send?phone=91XXXXXXXXXX"><i class="fa fa-whatsapp"
+              aria-hidden="true"></i></a>&nbsp&nbsp&nbsp<a href="tel:+91XXXXXXXXXX"><i class="fa fa-phone"
+              aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Credits:-</h1>
+      <ul>
+        <li>Styling & Design - Rohitasw </li>
+        <li>Concept - Cultural Club</li>
+        <li>Photographs - Designing Team</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>Follow us on:-</h1>
+
+      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+      <a href="https://"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+
+    </div>
+  </div>
+  <div id="maintain">
+    <!-- The Site is maintained by The Student-Council Student Body Of Vidyalankar Institute Of Technology -->
+  </div>
+  <script src="assets/js/count.js"></script>
+  <script src="assets/js/jquery.js"></script>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+
 </body>
 
 </html>
