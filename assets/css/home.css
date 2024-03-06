@@ -343,14 +343,14 @@ a:hover
   }
 }
 .eve:nth-child(1){
-  background-image: url("../images/COMING2.png");
+  background-image: url("../images/steb.JPG");
   background-size: cover;
   background-position: center;
 
 
 }
 .eve:nth-child(2){
-  background-image: url("../images/COMING2.png");
+  background-image: url("../images/band.jpg");
   background-size: cover;
   background-position: center;
 
@@ -358,7 +358,7 @@ a:hover
 
 }
 .eve:nth-child(3){
-  background-image: url("../images/COMING2.png");
+  background-image: url("../images/dev.JPG");
   background-size: cover;
   background-position: center;
 
