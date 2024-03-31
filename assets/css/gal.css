@@ -54,7 +54,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-  background: black;
+  background: rgb(16, 11, 37);
 }
 
 body {
